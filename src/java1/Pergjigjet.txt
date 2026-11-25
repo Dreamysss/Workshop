@@ -1,0 +1,18 @@
+Workshop 1 - Pergjigjet
+Emri dhe mbiemri: Amri Muliqi
+Varianti:B
+1. switch-i që jep vlerë
+a) Në cilin rresht fillon? Fillon në rreshtin 12: int level = switch (user_input) {
+b) Çka ruan në variabël për inputin e parë të shembullit tuaj? Për input 1 e ruan 4 në level (Admin = niveli 4).
+c) Çka ndodh nëse e fshini rreshtin me default? Pse? nuk kompailohet
+2. Një kusht me && ose ||
+a) Në cilin rresht është? ne rreshtin 40
+b) Një input ku kushti del true:  if else IO.println("Hyrja me sukses! Hapsira juaj e liruar: " + (level * 2.5) + "GB");
+c) Një input ku kushti del false: else IO.println("Keni gabuar tek Emri i perdoruesit apo Fjalkalimin!");
+3. Ndryshimi juaj case 4 operatori dhe nese prek enter ne password pa shkruar asgje do del nje mesazh "nuk mund ta lesh bosh"
+a) Cilat rreshta i shtuat ose i ndryshuat? 16, 35-36 dhe 42
+b) Pse pikërisht aty? sepse aty munden te shtoheshin pa shum problem
+c) Një input që e provon ndryshimin, dhe output-i që del:
+Input: role 1, username operator, password 0p3r!2026
+Output: Keni gabuar tek Emri i perdoruesit apo Fjalkalimin! (para ndryshimit do të dilte 10.0GB)
+Kontrolli që ende punon: role 4, operator, 0p3r!2026 → Hyrja me sukses! Hapsira juaj e liruar: 7.5GB
